@@ -1,0 +1,38 @@
+TRABALHANDO COM REPOSITÓRIO - GIT/GITHUB
+
+Criando um repositório
+
+Tenha uma conta no GitHub;
+Crie um novo repositório (público para que todos possam ter acesso e acompanhar o seu trabalho);
+Acrescente uma descrição para o repositório;
+Adicione o arquivo README.md (Sua finalidade é apresentar tudo o que há de importante dentro do repositório);
+Após criar o repositório, copie o seu código em "CODE" (HTTPS OU SSH);
+
+Obs.: 
+A) Para que qualquer alteração nos arquivos de extensão md (Markdown) faça efeito, é necessário commitar o conteúdo editado clicando em "Commit changes".
+
+B) Aprenda mais sobre como trabalhar com arquivos do tipo MD em link: https://www.markdownguide.org/basic-syntax
+
+
+Baixando o repositório no dispositivo local
+
+Tenha o Git Bash Here em sua máquina pessoal;
+Com o link do repositório copiado, abra o terminal do Git Bash;
+Acesse a pasta na qual deseja trabalhar;
+Use o comando git clone e cole o link do repositório, dê enter.
+Insira as credenciais solicitadas;
+
+Obs.: 
+A) É possível entrar no repositório pelo terminal do Git Bash usando o comando cd nome do repositório, que pode ser acessado usando a tecla Tab.
+
+B) Use o comando git status para verificar o status do repositório.
+
+Atenção: A partir desta etapa, pastas e arquivos podem ser criados e editados dentro do repositório de modo a organizar o seu trabalho.
+
+Enviando arquivos ou edições em arquivos da máquina local para o servidor remoto do GitHub.
+
+No terminal do Git Bash, use o comando git add . ou git add -a para adicionar todos os arquivos do controle de versão local;
+Use o comando git status para certificar que o processo de inclusão está ok.
+Use o comando git commit -m "descrição/informações registradas no ou sobre o arquivo"
+Use o comando git status para verificar o processo;
+Use o comando git push origin main para enviar todos os arquivos disponíveis para a nuvem.
